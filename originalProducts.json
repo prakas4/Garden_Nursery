@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "image": "img/product-1.jpg",
+        "name": "Top 3 Beautiful Kalanchoe Flowers of the Season",
+        "originalPrice": 954,
+        "offerPrice": 859,
+        "discount": "Save 10%",
+        "reviewes": "107 reviews",
+        "offer": "4+ Offers Inside",
+        "category": "Flowering"
+    },
+    {
+        "id": 2,
+        "image": "img/product-2.jpg",
+        "name": "Grow flowers through seeds - Kids learning garden pack",
+        "originalPrice": 759,
+        "offerPrice": 684,
+        "discount": "Save 10%",
+        "reviewes": "95 reviews",
+        "offer": "4+ Offers Inside",
+        "category": "Flowering"
+    },
+    {
+        "id": 3,
+        "image": "img/product-3.jpg",
+        "name": "Graceful Gladiolus - Garden Pack of Flowers",
+        "originalPrice": 899,
+        "offerPrice": 765,
+        "discount": "Save 15%",
+        "reviewes": "72 reviews",
+        "offer": "4+ Offers Inside",
+        "category": "Flowering"
+    },
+    {
+        "id": 4,
+        "image": "img/product-4.jpg",
+        "name": "Gardening Made Easy with Microgreens",
+        "originalPrice": 740,
+        "offerPrice": 499,
+        "discount": "Save 33%",
+        "reviewes": "127 reviews",
+        "offer": "4+ Offers Inside",
+        "category": "Vegetables"
+    },
+    {
+        "id": 5,
+        "image": "img/product-5.jpg",
+        "name": "Gardening Made Easy with Gardening Kit",
+        "originalPrice": 380,
+        "offerPrice": 199,
+        "discount": "Save 48%",
+        "reviewes": "103 reviews",
+        "offer": "4+ Offers Inside",
+        "category": "Vegetables"
+    },
+    {
+        "id": 6,
+        "image": "img/product-6.jpg",
+        "name": "Graceful Design with Our Garden Pack",
+        "originalPrice": 299,
+        "offerPrice": 246,
+        "discount": "Save 18%",
+        "reviewes": "80 reviews",
+        "offer": "4+ Offers Inside",
+        "category": "Vegetables"
+    },
+    {
+        "id": 7,
+        "image": "img/product-7.png",
+        "name": "Top 4 Rose Shaped Succulent Pack",
+        "originalPrice": 1746,
+        "offerPrice": 1299,
+        "discount": "Save 26%",
+        "reviewes": "106 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Outdoor Plants"
+    },
+    {
+        "id": 8,
+        "image": "img/product-8.png",
+        "name": "Top 3 Cactus Plants Pack for you",
+        "originalPrice": 1123,
+        "offerPrice": 759,
+        "discount": "Save 32%",
+        "reviewes": "120 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Outdoor Plants"
+    },
+    {
+        "id": 9,
+        "image": "img/product-1.jpg",
+        "name": "Top 3 Beautiful Kalanchoe Flowers of the Season",
+        "originalPrice": 954,
+        "offerPrice": 859,
+        "discount": "Save 10%",
+        "reviewes": "107 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Outdoor Plants"
+    },
+    {
+        "id": 10,
+        "image": "img/product-2.jpg",
+        "name": "Grow flowers through seeds - Kids learning garden pack",
+        "originalPrice": 759,
+        "offerPrice": 684,
+        "discount": "Save 10%",
+        "reviewes": "95 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Outdoor Plants"
+    },
+    {
+        "id": 11,
+        "image": "img/product-3.jpg",
+        "name": "Graceful Gladiolus - Garden Pack of Flowers",
+        "originalPrice": 899,
+        "offerPrice": 765,
+        "discount": "Save 15%",
+        "reviewes": "72 reviews",
+        "offer": "4+ Offers Inside",
+        "category": "Flowering"
+    },
+    {
+        "id": 12,
+        "image": "img/product-4.jpg",
+        "name": "Gardening Made Easy with Microgreens",
+        "originalPrice": 740,
+        "offerPrice": 499,
+        "discount": "Save 33%",
+        "reviewes": "127 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Indoor Plants"
+    },
+    {
+        "id": 13,
+        "image": "img/product-5.jpg",
+        "name": "Gardening Made Easy with Gardening Kit",
+        "originalPrice": 380,
+        "offerPrice": 199,
+        "discount": "Save 48%",
+        "reviewes": "103 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Indoor Plants"
+    },
+    {
+        "id": 14,
+        "image": "img/product-6.jpg",
+        "name": "Graceful Design with Our Garden Pack",
+        "originalPrice": 299,
+        "offerPrice": 246,
+        "discount": "Save 18%",
+        "reviewes": "80 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Indoor Plants"
+    },
+    {
+        "id": 15,
+        "image": "img/product-7.png",
+        "name": "Top 4 Rose Shaped Succulent Pack",
+        "originalPrice": 1746,
+        "offerPrice": 1299,
+        "discount": "Save 26%",
+        "reviewes": "106 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Indoor Plants"
+    },
+    {
+        "id": 16,
+        "image": "img/product-8.png",
+        "name": "Top 3 Cactus Plants Pack for you",
+        "originalPrice": 1123,
+        "offerPrice": 759,
+        "discount": "Save 32%",
+        "reviewes": "120 reviews",
+        "offer": "4+ Offers Inside",
+        "category":"Indoor Plants"
+    }
+]

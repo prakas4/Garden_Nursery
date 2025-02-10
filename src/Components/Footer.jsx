@@ -129,11 +129,15 @@ const Footer = () => {
   {/* Copyright End */}
   {/* Back to Top */}
   <a
-    href="#"
-    className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-  >
-    <i className="bi bi-arrow-up" />
-  </a>
+  href="#"
+  className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+  onClick={(e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }}
+>
+  <i className="bi bi-arrow-up" />
+</a>
 </>
 
    </>

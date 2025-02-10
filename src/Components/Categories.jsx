@@ -21,7 +21,7 @@ const Categories = () => {
   return (
     <div
       id="categoryCarousel"
-      className="carousel slide category-section bg-light py-3"
+      className="carousel slide category-section bg-light py-3 parallax-mirror"
       data-bs-ride="carousel"
     >
       <div className="container-fluid">

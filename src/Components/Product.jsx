@@ -76,7 +76,7 @@ useEffect(() => {
                       <i className="bi bi-star-fill text-warning" /> {item.reviewes}
                     </p>
                     <p className="text-muted">{item.offer}</p>
-                    <button className="btn add-to-cart-btn w-100 mt-auto">
+                    <button className="btn add-to-cart-btn w-100 mt-auto" onClick={() =>addToCart(item)}>
                       Add to cart
                     </button>
                   </div>
