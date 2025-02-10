@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Carousel = () => {
+
+  useEffect(() => {
+    const carouselElement = document.querySelector("#header-carousel");
+    if (carouselElement) {
+      new bootstrap.Carousel(carouselElement, {
+        interval: 3000,
+        wrap: true
+      });
+    }
+  }, []);
+  
   const carousels = [
     {
       image: "img/carousel-1.jpg",
@@ -33,27 +44,27 @@ const Carousel = () => {
           <div className="carousel-inner">
             {carousels.map((item1, index) => (
               <div className={`carousel-item ${item1.active}`} key={index}>
-                  <img className="w-100" src={item1.image} alt="Image" />
-                  <div className="carousel-caption">
-                    <div className="container">
-                      <div className="row justify-content-center">
-                        <div className="col-lg-8">
-                          <h1 className="display-1 text-white mb-5 animated slideInDown">
-                            {item1.heading}
-                          </h1>
-                          <a
-                            href=""
-                            className="btn btn-primary py-sm-3 px-sm-4"
-                          >
-                            Explore More
-                          </a>
-                          <p className="text-white mt-3 mb-5 animated slideInDown">
-                            {item1.detail}
-                          </p>
-                        </div>
+                <img className="w-100" src={item1.image} alt="Image" />
+                <div className="carousel-caption">
+                  <div className="container">
+                    <div className="row justify-content-center">
+                      <div className="col-lg-8">
+                        <h1 className="display-1 text-white mb-5 animated slideInDown">
+                          {item1.heading}
+                        </h1>
+                        <a
+                          href=""
+                          className="btn btn-primary py-sm-3 px-sm-4"
+                        >
+                          Explore More
+                        </a>
+                        <p className="text-white mt-3 mb-5 animated slideInDown">
+                          {item1.detail}
+                        </p>
                       </div>
                     </div>
                   </div>
+                </div>
               </div>
             ))}
           </div>

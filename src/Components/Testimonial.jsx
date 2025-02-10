@@ -39,7 +39,7 @@ const Testimonial = () => {
           <div className="testimonial-item active">
             <img
               className="img-fluid rounded mb-3"
-              src="/img/testimonial-1.jpg"
+              src="./img/testimonial-1.jpg"
               alt=""
             />
             <p className="fs-5">
@@ -53,7 +53,7 @@ const Testimonial = () => {
           <div className="testimonial-item">
             <img
               className="img-fluid rounded mb-3"
-              src="/img/testimonial-2.jpg"
+              src="./img/testimonial-2.jpg"
               alt=""
             />
             <p className="fs-5">

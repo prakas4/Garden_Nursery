@@ -60,12 +60,12 @@
     });
 
     //Categories carousel
-    document.addEventListener('DOMContentLoaded', () => {
-        const carousel = new bootstrap.Carousel('#categoryCarousel', {
-          interval: 3000, // Auto-scroll interval (milliseconds)
-          wrap: true // Wrap around at the end
-        });
-      });
+    // document.addEventListener('DOMContentLoaded', () => {
+    //     const carousel = new bootstrap.Carousel('#categoryCarousel', {
+    //       interval: 3000, // Auto-scroll interval (milliseconds)
+    //       wrap: true // Wrap around at the end
+    //     });
+    //   });
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({

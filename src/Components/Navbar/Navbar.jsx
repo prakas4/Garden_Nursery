@@ -38,7 +38,7 @@ const Navbar = () => {
         Services
       </Link>
       <Link to="/cart" className={`nav-item nav-link ${location.pathname === "/cart" ? "active" : ""}`}>
-      <i class="fa-solid fa-cart-shopping fs-3" style={{position:"relative"}}><span className="badge bg-danger p-1" style={{position:"absolute",fontSize:"10px",borderRadius:"12px"}}>{CartItems.length}</span></i>
+      <i className="fa-solid fa-cart-shopping fs-3" style={{position:"relative"}}><span className="badge bg-danger p-1" style={{position:"absolute",fontSize:"10px",borderRadius:"12px"}}>{CartItems.length}</span></i>
       </Link>
     </div>
     <Link
