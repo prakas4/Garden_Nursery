@@ -1,16 +1,16 @@
 import "./App.css";
 import { ProductProvider } from "./Components/Home/Home";
 import AppRoutes from "./Components/AppRoutes";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <ProductProvider>
           <AppRoutes />
         </ProductProvider>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
