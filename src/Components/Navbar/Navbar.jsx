@@ -11,8 +11,14 @@ const Navbar = () => {
    <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
   <Link
     to={'/'}
-    className="navbar-brand d-flex align-items-center px-4 px-lg-5"
+    className="navbar-brand d-flex align-items-center"
   >
+    <img 
+    src="./img/icon/logo (3).png" 
+    alt="logo" 
+    className="navbar-logo"
+    style={{height:"60px",width:"50px"}}
+  />
     <h1 className="m-0">Plant Nursery</h1>
   </Link>
   <button
